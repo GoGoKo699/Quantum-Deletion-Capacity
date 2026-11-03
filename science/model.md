@@ -25,7 +25,7 @@ For $`0\leq k\leq n`$, choose a deletion set $`S\subseteq\{1,\ldots,n\}`$ unifor
 \mathcal N_{n,k}(\rho)
 =\frac{1}{\binom nk}
 \sum_{\substack{S\subseteq\{1,\ldots,n\}\\ |S|=k}}
-V_S\operatorname{Tr}_{A_S}(\rho)V_S^\dagger,
+V_S\mathrm{Tr}_{A_S}(\rho)V_S^\dagger,
 ```
 
 where $`V_S`$ is the order-preserving identification of the surviving tensor factors with $`B_{n-k}`$. The number $`k`$ is known from the final length $`n-k`$, but the set $`S`$ is not supplied.
@@ -74,7 +74,7 @@ Together with the shared state and deletion channel, these maps induce an effect
 
 ```math
 \epsilon_\diamond(\mathcal T)
-=\frac12\|\mathcal T-\operatorname{id}_K\|_\diamond.
+=\frac12\|\mathcal T-\mathrm{id}_K\|_\diamond.
 ```
 
 Thus the guarantee applies to every input, including a message entangled with an inaccessible reference. A reference of dimension $`K`$ suffices in this norm. A decoder with an abort outcome must complete that branch to a quantum output; an abort is not a free successful transmission.
@@ -84,7 +84,7 @@ We also state converse bounds for the squared-overlap entanglement fidelity
 ```math
 F_e(\mathcal T)
 =\langle\Phi_K|
-(\operatorname{id}_K\otimes\mathcal T)(\Phi_K)
+(\mathrm{id}_K\otimes\mathcal T)(\Phi_K)
 |\Phi_K\rangle,
 \qquad
 |\Phi_K\rangle

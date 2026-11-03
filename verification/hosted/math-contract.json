@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "98268c6d4c7fe5af4e0dfd8b537dfaac9b3a5d7d7abd9144dc970ad269e8f908",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  2\n  )\n  =\n  1\n  −\n  \n    p\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    1\n    p\n  \n  +\n  O\n  (\n  p\n  )\n  ,\n  \n    \n  \n  p\n  ↓\n  0.\n"
+    },
+    {
+      "path": "README.md",
+      "index": 9,
+      "source_sha256": "f500fc567af9808287c1bdd536309c1843b43bc01034b880c60763f621d408de",
+      "expected_text": "\n  max\n  \n    \n  \n  \n    {\n    0\n    ,\n    (\n    1\n    −\n    p\n    )\n    \n      log\n      2\n    \n    ⁡\n    d\n    −\n    \n      1\n      2\n    \n    \n      h\n      2\n    \n    (\n    p\n    )\n    }\n  \n  ≤\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  ≤\n  min\n  \n    \n  \n  \n    {\n    (\n    1\n    −\n    p\n    )\n    \n      log\n      2\n    \n    ⁡\n    d\n    ,\n    (\n    1\n    −\n    p\n    )\n    \n      log\n      2\n    \n    ⁡\n    d\n    −\n    \n      1\n      2\n    \n    \n      h\n      2\n    \n    (\n    p\n    )\n    +\n    \n      p\n      2\n    \n    \n      log\n      2\n    \n    ⁡\n    \n      C\n      d\n    \n    }\n  \n  .\n"
+    },
+    {
+      "path": "README.md",
+      "index": 13,
+      "source_sha256": "3d1d595f14658662325f72dc73c1e8068938ab077b1ebbb3f3fc85c3aa5dd18e",
+      "expected_text": "\n  ∥\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  \n    ∥\n    ∞\n  \n  ≤\n  \n    \n      C\n      d\n      k\n    \n    \n      \n        d\n        k\n      \n      \n        \n          (\n        \n        \n          n\n          k\n        \n        \n          )\n        \n      \n    \n  \n  .\n"
+    },
+    {
+      "path": "learning/README.md",
+      "index": 1,
+      "source_sha256": "98268c6d4c7fe5af4e0dfd8b537dfaac9b3a5d7d7abd9144dc970ad269e8f908",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  2\n  )\n  =\n  1\n  −\n  \n    p\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    1\n    p\n  \n  +\n  O\n  (\n  p\n  )\n  ,\n  \n    \n  \n  p\n  ↓\n  0.\n"
+    },
+    {
+      "path": "learning/anchor.md",
+      "index": 1,
+      "source_sha256": "0b633f325cc2a7914b7266f840bc05e2acea4d6a9a66ec38c7486b65693940c9",
+      "expected_text": "\n  \n    ρ\n    \n      A\n      B\n    \n  \n  =\n  (\n  \n    \n      id\n    \n    A\n  \n  ⊗\n  \n    \n      N\n    \n    \n      \n        A\n        ′\n      \n      →\n      B\n    \n  \n  )\n  (\n  \n    ϕ\n    \n      A\n      \n        A\n        ′\n      \n    \n  \n  )\n"
+    },
+    {
+      "path": "learning/anchor.md",
+      "index": 12,
+      "source_sha256": "ab6ce0dc6d83c6d695fa1b4a981d9e9ae5c5dad5647ed514a6ad3432697136e5",
+      "expected_text": "\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  =\n  (\n  \n    \n      id\n    \n    R\n  \n  ⊗\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  )\n  (\n  \n    Φ\n    \n      \n        d\n        n\n      \n    \n  \n  )\n  ,\n  \n    \n  \n  \n    Tr\n  \n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  =\n  1.\n"
+    },
+    {
+      "path": "learning/anchor.md",
+      "index": 16,
+      "source_sha256": "0ac21c90c81b502f3ae1de5c01f0e812c32b656cf3b1f81ee462274fa2793b66",
+      "expected_text": "\n  \n    Tr\n  \n  (\n  \n    J\n    \n      n\n      ,\n      k\n    \n    2\n  \n  )\n"
+    },
+    {
+      "path": "learning/anchor.md",
+      "index": 23,
+      "source_sha256": "5daef9faf2fd0a947bfef97d2d654850123ce08f8cedbb42ca1cce19016eb734",
+      "expected_text": "\n  \n    ϵ\n    ⋄\n  \n  =\n  \n    \n      1\n      2\n    \n  \n  ∥\n  \n    T\n  \n  −\n  \n    \n      id\n    \n    K\n  \n  \n    ∥\n    ⋄\n  \n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 17,
+      "source_sha256": "0624b3049d6e7cbfc1317e81b1d215cd1e45e0d956b5ee525237155abeff34f1",
+      "expected_text": "\n  \n    \n      N\n    \n    \n      4\n      ,\n      1\n    \n  \n  (\n  |\n  0011\n  ⟩\n  ⟨\n  0011\n  |\n  )\n  =\n  \n    1\n    2\n  \n  |\n  011\n  ⟩\n  ⟨\n  011\n  |\n  +\n  \n    1\n    2\n  \n  |\n  001\n  ⟩\n  ⟨\n  001\n  |\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 24,
+      "source_sha256": "2541951cbce26ff97302c8113ae445a94f70b1e5418e76289e1ba4a9f28c8707",
+      "expected_text": "\n  \n    K\n    \n      s\n      ,\n      a\n    \n  \n  |\n  \n    z\n    1\n  \n  \n    z\n    2\n  \n  \n    z\n    3\n  \n  \n    z\n    4\n  \n  ⟩\n  =\n  \n    δ\n    \n      \n        z\n        s\n      \n      ,\n      a\n    \n  \n  |\n  \n    z\n    1\n  \n  ⋯\n  \n    z\n    \n      s\n      −\n      1\n    \n  \n  \n    z\n    \n      s\n      +\n      1\n    \n  \n  ⋯\n  \n    z\n    4\n  \n  ⟩\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 27,
+      "source_sha256": "582129801edfb78f87c628f93b50bbb769f828decc0370b4f36ee2482fee8433",
+      "expected_text": "\n  ⟨\n  s\n  ,\n  a\n  |\n  \n    σ\n    E\n  \n  |\n  t\n  ,\n  b\n  ⟩\n  =\n  \n    \n      \n        Tr\n      \n      (\n      \n        K\n        \n          t\n          ,\n          b\n        \n        \n          †\n        \n      \n      \n        K\n        \n          s\n          ,\n          a\n        \n      \n      )\n    \n    \n      16\n      ⋅\n      4\n    \n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 36,
+      "source_sha256": "e85c0602f8d6c06c66e2922a08915e1ef221ae5b0dc4aa7195969bbe58b5b965",
+      "expected_text": "\n  \n    Tr\n  \n  (\n  \n    K\n    \n      3\n      ,\n      b\n    \n    \n      †\n    \n  \n  \n    K\n    \n      2\n      ,\n      a\n    \n  \n  )\n  =\n  4\n  \n    δ\n    \n      a\n      b\n    \n  \n  ,\n  \n    \n  \n  (\n  \n    σ\n    E\n  \n  \n    )\n    \n      2\n      ,\n      3\n    \n  \n  =\n  \n    \n      I\n      2\n    \n    16\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 40,
+      "source_sha256": "5b76184779f387fbeac4c36f58553afe17c11af6e837f6e26ab2b2a94c3a115b",
+      "expected_text": "\n  (\n  \n    σ\n    E\n  \n  \n    )\n    \n      s\n      ,\n      t\n    \n  \n  =\n  \n    \n      2\n      \n        −\n        |\n        s\n        −\n        t\n        |\n      \n    \n    8\n  \n  \n    \n  \n  \n    I\n    2\n  \n  ,\n  \n    \n  \n  s\n  ,\n  t\n  ∈\n  {\n  1\n  ,\n  2\n  ,\n  3\n  ,\n  4\n  }\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 51,
+      "source_sha256": "c18b73e94acb13cb627827585884a1de708f75def14e067f712e499390f939a0",
+      "expected_text": "\n  ∥\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  \n    ∥\n    ∞\n  \n  ≤\n  \n    \n      C\n      d\n      k\n    \n    \n      \n        d\n        k\n      \n      \n        \n          (\n        \n        \n          n\n          k\n        \n        \n          )\n        \n      \n    \n  \n  ,\n  \n    \n  \n  \n    C\n    d\n  \n  =\n  \n    6\n    \n      (\n      1\n      −\n      1\n      \n        /\n      \n      d\n      \n        )\n        3\n      \n    \n  \n  ≤\n  48.\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 56,
+      "source_sha256": "14d8e9c86a77d623041bb3233459acc50d4fc25e4dd668efaf44c08d545696c7",
+      "expected_text": "\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  \n    ≤\n    \n      \n        CP\n      \n    \n  \n  \n    Λ\n    \n      n\n      ,\n      k\n    \n  \n  \n    \n      R\n    \n    \n      n\n      −\n      k\n    \n  \n  ,\n  \n    \n  \n  \n    Λ\n    \n      n\n      ,\n      k\n    \n  \n  =\n  min\n  \n    {\n    \n      d\n      \n        2\n        (\n        n\n        −\n        k\n        )\n      \n    \n    ,\n    \n      \n        \n          d\n          \n            2\n            (\n            n\n            −\n            k\n            )\n          \n        \n        \n          C\n          d\n          k\n        \n      \n      \n        \n          (\n        \n        \n          n\n          k\n        \n        \n          )\n        \n      \n    \n    }\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 60,
+      "source_sha256": "8efa04f6fbc6d81dd57a3c3c70139144109680bc802b94f0b8a0d840192e5ed8",
+      "expected_text": "\n  \n    P\n    \n      \n        succ\n      \n    \n  \n  ≤\n  min\n  {\n  1\n  ,\n  \n    Λ\n    \n      n\n      ,\n      k\n    \n  \n  \n    /\n  \n  M\n  }\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 67,
+      "source_sha256": "12674cef38fcb9f7a9217c37a7fb5252f9f71e3ec3b3756f74a1aee76865c816",
+      "expected_text": "\n  \n    E\n  \n  \n    \n  \n  \n    Tr\n  \n  (\n  \n    ρ\n    \n      i\n      ,\n      k\n    \n  \n  \n    Π\n    \n      j\n      ,\n      k\n    \n  \n  )\n  =\n  \n    \n      \n        rank\n      \n      \n        J\n        \n          n\n          ,\n          k\n        \n      \n    \n    \n      d\n      \n        2\n        n\n        −\n        k\n      \n    \n  \n  ≤\n  \n    \n      (\n    \n    \n      n\n      k\n    \n    \n      )\n    \n  \n  \n    \n  \n  \n    d\n    \n      −\n      2\n      (\n      n\n      −\n      k\n      )\n    \n  \n  \n    \n  \n  (\n  i\n  ≠\n  j\n  )\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 70,
+      "source_sha256": "815e239a5f70c828cb627dc0a8b6cc15107478b0dc2d05b076575864b8f4819d",
+      "expected_text": "\n  \n    \n      e\n      ―\n    \n    k\n  \n  ≤\n  min\n  \n    {\n    1\n    ,\n    \n      \n    \n    4\n    (\n    M\n    −\n    1\n    )\n    \n      \n        (\n      \n      \n        n\n        k\n      \n      \n        )\n      \n    \n    \n      \n    \n    \n      d\n      \n        −\n        2\n        (\n        n\n        −\n        k\n        )\n      \n    \n    }\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 78,
+      "source_sha256": "ac90573c6213aef0f30391b1a041d74d943fdffbb06c5cc9e2c79926b9309ddc",
+      "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  =\n  ⟨\n  \n    Φ\n    K\n  \n  |\n  (\n  \n    \n      id\n    \n    K\n  \n  ⊗\n  \n    T\n  \n  )\n  (\n  \n    Φ\n    K\n  \n  )\n  |\n  \n    Φ\n    K\n  \n  ⟩\n  ,\n  \n    \n  \n  \n    ϵ\n    ⋄\n  \n  (\n  \n    T\n  \n  )\n  =\n  \n    1\n    2\n  \n  ∥\n  \n    T\n  \n  −\n  \n    \n      id\n    \n    K\n  \n  \n    ∥\n    ⋄\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 81,
+      "source_sha256": "693be47c54f9dd469e163aea409a19bce8e548953abc46f1eabb6542b7e645ad",
+      "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  =\n  1\n  −\n  \n    e\n    ―\n  \n  ,\n  \n    \n  \n  \n    ϵ\n    ⋄\n  \n  (\n  \n    T\n  \n  )\n  =\n  \n    e\n    ―\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 86,
+      "source_sha256": "b30efca9ca5d1cbaf020276b65c2222f8d5044af95a8d778837662095db80a7d",
+      "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  ≤\n  min\n  {\n  1\n  ,\n  \n    Λ\n    \n      n\n      ,\n      k\n    \n  \n  \n    /\n  \n  \n    K\n    2\n  \n  }\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 89,
+      "source_sha256": "d01e9006943418d86f720b40bc420fee4a2b813be72c9a1fa6c2d675bcd576b7",
+      "expected_text": "\n  0\n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 92,
+      "source_sha256": "29a69887e345725c78ea9bcbdb6dea4c1681f125b58efc23276b4617c43fef6f",
+      "expected_text": "\n  \n    log\n    2\n  \n  ⁡\n  \n    K\n    \n      n\n      ,\n      k\n      ,\n      ϵ\n    \n    ∗\n  \n  =\n  (\n  n\n  −\n  k\n  )\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    1\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    \n      (\n    \n    \n      n\n      k\n    \n    \n      )\n    \n  \n  +\n  \n    O\n    \n      d\n      ,\n      ϵ\n    \n  \n  (\n  k\n  +\n  1\n  )\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 99,
+      "source_sha256": "407b602f0ceb15fe15a23e3bffcff78405f4d12eed0695bb9e5d757f0779d79a",
+      "expected_text": "\n  \n    1\n    n\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    \n      (\n    \n    \n      n\n      \n        ⌊\n        n\n        p\n        ⌋\n      \n    \n    \n      )\n    \n  \n  ⟶\n  \n    h\n    2\n  \n  (\n  p\n  )\n  ,\n  \n    \n  \n  \n    h\n    2\n  \n  (\n  p\n  )\n  =\n  −\n  p\n  \n    log\n    2\n  \n  ⁡\n  p\n  −\n  (\n  1\n  −\n  p\n  )\n  \n    log\n    2\n  \n  ⁡\n  (\n  1\n  −\n  p\n  )\n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 100,
+      "source_sha256": "35120a97ff13fd6f8d38cebaa8d701fc3eec62c9b5daef85ade24bce61615455",
+      "expected_text": "\n  (\n  1\n  −\n  p\n  )\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    1\n    2\n  \n  \n    h\n    2\n  \n  (\n  p\n  )\n  ≤\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  ≤\n  (\n  1\n  −\n  p\n  )\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    1\n    2\n  \n  \n    h\n    2\n  \n  (\n  p\n  )\n  +\n  \n    p\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    C\n    d\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 104,
+      "source_sha256": "d1b7ef54bfd771f0e641a0c9ed6e1ed1e56aba0a386ac8e85b0e8d1af65a4beb",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  =\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    p\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    1\n    p\n  \n  +\n  \n    O\n    d\n  \n  (\n  p\n  )\n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 1,
+      "source_sha256": "6d9325af6a33bb59738772ab94943b96f60a78af60cb81e0532018378a8e796d",
+      "expected_text": "\n  ∥\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  \n    ∥\n    ∞\n  \n  ≤\n  \n    \n      C\n      d\n      k\n    \n    \n      \n        d\n        k\n      \n      \n        \n          (\n        \n        \n          n\n          k\n        \n        \n          )\n        \n      \n    \n  \n  ,\n  \n    \n  \n  \n    C\n    d\n  \n  =\n  \n    6\n    \n      (\n      1\n      −\n      1\n      \n        /\n      \n      d\n      \n        )\n        3\n      \n    \n  \n  ≤\n  48.\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 14,
+      "source_sha256": "430f75a2eacc3e6c97e88e25c3764fab153ca5c868d455b66616b4eb50f164a7",
+      "expected_text": "\n  S\n  =\n  {\n  \n    s\n    1\n  \n  <\n  ⋯\n  <\n  \n    s\n    k\n  \n  }\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 15,
+      "source_sha256": "691dde578c335446ed1c2687b38feaba100aadcccac6954774e31be63f85db0e",
+      "expected_text": "\n  x\n  (\n  S\n  )\n  =\n  (\n  \n    x\n    1\n  \n  <\n  ⋯\n  <\n  \n    x\n    m\n  \n  )\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 26,
+      "source_sha256": "e0684b7df9cd5ec7476fe4abcea642576fa04651b31b75ffda7c982348ddadbb",
+      "expected_text": "\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  =\n  (\n  \n    \n      id\n    \n    R\n  \n  ⊗\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  )\n  \n    (\n  \n  |\n  \n    Φ\n    \n      \n        d\n        n\n      \n    \n  \n  ⟩\n  ⟨\n  \n    Φ\n    \n      \n        d\n        n\n      \n    \n  \n  |\n  \n    )\n  \n  ,\n  \n    \n  \n  \n    σ\n    E\n  \n  =\n  \n    \n      Tr\n    \n    B\n  \n  \n    [\n    V\n    \n      \n        I\n        A\n      \n      \n        d\n        n\n      \n    \n    \n      V\n      \n        †\n      \n    \n    ]\n  \n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 29,
+      "source_sha256": "39c243e2a18d1f7c09964c7797ec3c91b1fab4a1053a497118effdf632086d2b",
+      "expected_text": "\n  ⟨\n  S\n  ,\n  a\n  |\n  \n    σ\n    E\n  \n  |\n  T\n  ,\n  b\n  ⟩\n  =\n  \n    \n      \n        Tr\n      \n      (\n      \n        K\n        \n          T\n          ,\n          b\n        \n        \n          †\n        \n      \n      \n        K\n        \n          S\n          ,\n          a\n        \n      \n      )\n    \n    \n      \n        d\n        n\n      \n      \n        \n          (\n        \n        \n          n\n          k\n        \n        \n          )\n        \n      \n    \n  \n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 40,
+      "source_sha256": "0b06151114c7ed9cddfbd52bef766e9e52db332fc35be5812ab90aeae556b538",
+      "expected_text": "\n  \n    Tr\n  \n  (\n  \n    K\n    \n      T\n      ,\n      b\n    \n    \n      †\n    \n  \n  \n    K\n    \n      S\n      ,\n      a\n    \n  \n  )\n  =\n  \n    ∑\n    \n      z\n      ∈\n      {\n      0\n      ,\n      …\n      ,\n      d\n      −\n      1\n      \n        }\n        n\n      \n    \n  \n  \n    1\n  \n  {\n  \n    z\n    S\n  \n  =\n  a\n  }\n  \n    \n  \n  \n    1\n  \n  {\n  \n    z\n    T\n  \n  =\n  b\n  }\n  \n    ∏\n    \n      i\n      =\n      1\n    \n    \n      m\n    \n  \n  \n    1\n  \n  {\n  \n    z\n    \n      \n        x\n        i\n      \n    \n  \n  =\n  \n    z\n    \n      \n        y\n        i\n      \n    \n  \n  }\n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 55,
+      "source_sha256": "5a1f2a25f40e2b0a2df16443f4478ab08ec8e1be345aa418e7fe6f87f5881944",
+      "expected_text": "\n  \n    Tr\n  \n  (\n  \n    K\n    \n      T\n      ,\n      b\n    \n    \n      †\n    \n  \n  \n    K\n    \n      S\n      ,\n      a\n    \n  \n  )\n  =\n  \n    d\n    \n      m\n      −\n      q\n      (\n      S\n      ,\n      T\n      )\n    \n  \n  (\n  \n    P\n    \n      S\n      ,\n      T\n    \n  \n  \n    )\n    \n      a\n      ,\n      b\n    \n  \n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 74,
+      "source_sha256": "9b6f2fd7548b04b756ebcf3f120947ae82ea89f97561e8a415ce0ad4209d1364",
+      "expected_text": "\n  0\n  <\n  r\n  <\n  1\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 140,
+      "source_sha256": "f32c2c2ae03276a6730858e4da8d295a02447dea41122b0056c21cc3c29cfd5e",
+      "expected_text": "\n  0\n  <\n  k\n  <\n  n\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 150,
+      "source_sha256": "28c24a3fa750b53a32b1908cd214821ea66277340a4bd17fe101efa6aebfe749",
+      "expected_text": "\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  \n    ≤\n    \n      \n        CP\n      \n    \n  \n  \n    \n      \n        d\n        \n          2\n          (\n          n\n          −\n          k\n          )\n        \n      \n      \n        C\n        d\n        k\n      \n    \n    \n      \n        (\n      \n      \n        n\n        k\n      \n      \n        )\n      \n    \n  \n  \n    \n  \n  \n    \n      R\n    \n    \n      n\n      −\n      k\n    \n  \n  ,\n  \n    \n  \n  \n    \n      R\n    \n    \n      n\n      −\n      k\n    \n  \n  (\n  X\n  )\n  =\n  \n    Tr\n  \n  (\n  X\n  )\n  \n    \n      I\n      B\n    \n    \n      d\n      \n        n\n        −\n        k\n      \n    \n  \n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 15,
+      "source_sha256": "d01e9006943418d86f720b40bc420fee4a2b813be72c9a1fa6c2d675bcd576b7",
+      "expected_text": "\n  0\n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 24,
+      "source_sha256": "a09bd602ad5426017ef8e0483ff60ebf012b80d327d904075a729c450d04f3ab",
+      "expected_text": "\n  \n    ϵ\n    ⋄\n  \n  ≤\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 34,
+      "source_sha256": "fae41e29077d94620605322e8125fd6e88d15a2f722910050a4bce71ac3c5858",
+      "expected_text": "\n  \n    τ\n    T\n  \n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 45,
+      "source_sha256": "c4932e484a3fe533ca9f8e62eccdb7a09273b8ccef48c02136ea3808c3188e23",
+      "expected_text": "\n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  =\n  (\n  \n    \n      id\n    \n    \n      \n        D\n        A\n      \n    \n  \n  ⊗\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  )\n  (\n  \n    Φ\n    \n      \n        D\n        A\n      \n    \n  \n  )\n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 48,
+      "source_sha256": "a6f2c169cbff8a1ebbb50f05d079c086b40c401706b26ea75b00508fa97e18e7",
+      "expected_text": "\n  \n    rank\n  \n  \n    J\n    \n      n\n      ,\n      k\n    \n  \n  ≤\n  \n    c\n    \n      n\n      ,\n      k\n    \n  \n  \n    d\n    k\n  \n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 58,
+      "source_sha256": "44f3b0554abe6e311972599fc9fb10ca42037260e491abc5a3aeeb1ad8a47c72",
+      "expected_text": "\n  \n    \n      e\n      ―\n    \n    k\n  \n  ≤\n  \n    4\n    M\n  \n  \n    ∑\n    \n      i\n      =\n      1\n    \n    M\n  \n  \n    ∑\n    \n      j\n      ≠\n      i\n    \n  \n  \n    Tr\n  \n  (\n  \n    ρ\n    \n      i\n      ,\n      k\n    \n  \n  \n    Π\n    \n      j\n      ,\n      k\n    \n  \n  )\n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 64,
+      "source_sha256": "a6154c12d58a0039ab594df3bfe6f3c11f6caca3c51e067b6b5bbcf93f4bad52",
+      "expected_text": "\n  \n    E\n  \n  \n    Tr\n  \n  (\n  \n    ρ\n    \n      i\n      ,\n      k\n    \n  \n  \n    Π\n    \n      j\n      ,\n      k\n    \n  \n  )\n  =\n  \n    \n      \n        rank\n      \n      \n        J\n        \n          n\n          ,\n          k\n        \n      \n    \n    \n      \n        D\n        A\n      \n      \n        D\n        B\n      \n    \n  \n  ≤\n  \n    \n      \n        c\n        \n          n\n          ,\n          k\n        \n      \n      \n        d\n        k\n      \n    \n    \n      d\n      \n        2\n        n\n        −\n        k\n      \n    \n  \n  =\n  \n    a\n    \n      n\n      ,\n      k\n    \n  \n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 88,
+      "source_sha256": "8e9cd14e0bcdeec800d985ae6b3747de948d8f70a873ca5688ba4df9dcb066b5",
+      "expected_text": "\n  \n    id\n  \n  ⊗\n  \n    T\n  \n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 94,
+      "source_sha256": "fed7da0486e4c4461a51afa999ff6176c801016fe5cc2e777339589df58d727c",
+      "expected_text": "\n  \n    \n      R\n    \n    \n      n\n      −\n      k\n    \n  \n  (\n  X\n  )\n  =\n  \n    Tr\n  \n  (\n  X\n  )\n  \n    \n      I\n      B\n    \n    \n      d\n      \n        n\n        −\n        k\n      \n    \n  \n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 101,
+      "source_sha256": "c3f446766a22694c79252433dddcebdc43d52e4d6b51acd79f9b40412b4d75ec",
+      "expected_text": "\n  \n    X\n    \n      R\n      B\n    \n  \n  ≤\n  \n    D\n    B\n  \n  \n    \n      Tr\n    \n    B\n  \n  (\n  \n    X\n    \n      R\n      B\n    \n  \n  )\n  ⊗\n  \n    I\n    B\n  \n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 118,
+      "source_sha256": "c1a524db7322143dfa0f1b6880128f738eae2ff263590a897be3cedb3178d8c7",
+      "expected_text": "\n  \n    \n      \n        \n          \n            L\n            d\n          \n          (\n          p\n          )\n          ≤\n          \n            Q\n            E\n            \n              \n                del\n              \n            \n          \n          (\n          p\n          ;\n          d\n          )\n          ≤\n          \n            U\n            d\n          \n          (\n          p\n          )\n          .\n        \n      \n    \n  \n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 124,
+      "source_sha256": "a8860c0954f57ffa1e00bfe3943932d7ce63f9d507133cd03918c95d9ebacbd1",
+      "expected_text": "\n  0\n  <\n  p\n  <\n  1\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 127,
+      "source_sha256": "e402a80afad49943563a4af70ff90d134ba74087ef03340b36d90956d4a13693",
+      "expected_text": "\n  0\n  ≤\n  2\n  R\n  <\n  \n    f\n    d\n  \n  (\n  p\n  )\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 144,
+      "source_sha256": "a073130641583ede01dce315d8baebac954db78c3c4bbc1a316c88834b593bfa",
+      "expected_text": "\n  \n    sup\n    \n      |\n      x\n      −\n      p\n      |\n      ≤\n      η\n    \n  \n  \n    g\n    d\n  \n  (\n  x\n  )\n  <\n  2\n  R\n  −\n  δ\n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 153,
+      "source_sha256": "0c47db10b4981de5c4073105e6f8d1a22d817d0afafa8bfb01272291643d8a45",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  =\n  (\n  1\n  −\n  p\n  )\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    1\n    2\n  \n  \n    h\n    2\n  \n  (\n  p\n  )\n  +\n  O\n  (\n  p\n  )\n  =\n  \n    log\n    2\n  \n  ⁡\n  d\n  −\n  \n    p\n    2\n  \n  \n    log\n    2\n  \n  ⁡\n  \n    1\n    p\n  \n  +\n  \n    O\n    d\n  \n  (\n  p\n  )\n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 154,
+      "source_sha256": "8af3a6de9a88e821260beda2fdcfdae4f4e39f15016fe4dd2b1d7d898605da44",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  2\n  )\n  =\n  1\n  −\n  \n    1\n    2\n  \n  \n    h\n    2\n  \n  (\n  p\n  )\n  +\n  O\n  (\n  p\n  )\n  .\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 155,
+      "source_sha256": "96f831f0d7dd82edbbb5167d6c92ae86e7c8bb63c4a54a5d5176c0490f5f75e8",
+      "expected_text": "\n  \n    Q\n    E\n    \n      \n        erase\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  −\n  \n    Q\n    E\n    \n      \n        del\n      \n    \n  \n  (\n  p\n  ;\n  d\n  )\n  =\n  \n    1\n    2\n  \n  p\n  \n    log\n    2\n  \n  ⁡\n  \n    1\n    p\n  \n  +\n  \n    O\n    d\n  \n  (\n  p\n  )\n  .\n"
+    },
+    {
+      "path": "science/interpretation.md",
+      "index": 6,
+      "source_sha256": "d01e9006943418d86f720b40bc420fee4a2b813be72c9a1fa6c2d675bcd576b7",
+      "expected_text": "\n  0\n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/interpretation.md",
+      "index": 15,
+      "source_sha256": "d01e9006943418d86f720b40bc420fee4a2b813be72c9a1fa6c2d675bcd576b7",
+      "expected_text": "\n  0\n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/model.md",
+      "index": 13,
+      "source_sha256": "00adeaaccd308475544be4f85926de68e06e1ce759aa837ce24d6b393031fce8",
+      "expected_text": "\n  \n    \n      N\n    \n    \n      n\n      ,\n      k\n    \n  \n  (\n  ρ\n  )\n  =\n  \n    1\n    \n      \n        (\n      \n      \n        n\n        k\n      \n      \n        )\n      \n    \n  \n  \n    ∑\n    \n      \n        \n          \n            S\n            ⊆\n            {\n            1\n            ,\n            …\n            ,\n            n\n            }\n          \n        \n        \n          \n            |\n            S\n            |\n            =\n            k\n          \n        \n      \n    \n  \n  \n    V\n    S\n  \n  \n    \n      Tr\n    \n    \n      \n        A\n        S\n      \n    \n  \n  (\n  ρ\n  )\n  \n    V\n    S\n    †\n  \n  ,\n"
+    },
+    {
+      "path": "science/model.md",
+      "index": 37,
+      "source_sha256": "a9566f812fff5ab5f360b05633f2971afd9bbc3ab0a7cd509d67c92106106f19",
+      "expected_text": "\n  \n    ϵ\n    ⋄\n  \n  (\n  \n    T\n  \n  )\n  =\n  \n    1\n    2\n  \n  ∥\n  \n    T\n  \n  −\n  \n    \n      id\n    \n    K\n  \n  \n    ∥\n    ⋄\n  \n  .\n"
+    },
+    {
+      "path": "science/model.md",
+      "index": 39,
+      "source_sha256": "6513146b6f6bce677eced9f021688f940921fc004567dc7b79826a6df51ded77",
+      "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  =\n  ⟨\n  \n    Φ\n    K\n  \n  |\n  (\n  \n    \n      id\n    \n    K\n  \n  ⊗\n  \n    T\n  \n  )\n  (\n  \n    Φ\n    K\n  \n  )\n  |\n  \n    Φ\n    K\n  \n  ⟩\n  ,\n  \n    \n  \n  |\n  \n    Φ\n    K\n  \n  ⟩\n  =\n  \n    1\n    \n      K\n    \n  \n  \n    ∑\n    \n      j\n      =\n      0\n    \n    \n      K\n      −\n      1\n    \n  \n  |\n  j\n  ⟩\n  |\n  j\n  ⟩\n  ,\n"
+    }
+  ]
+}

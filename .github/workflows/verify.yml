@@ -42,6 +42,7 @@ jobs:
             --root "$GITHUB_WORKSPACE" \
             --repository "$GITHUB_REPOSITORY" \
             --revision "$SOURCE_REVISION" \
+            --contract verification/hosted/math-contract.json \
             --output "$RUNNER_TEMP/deletion-hosted"
       - name: Retain the actual report and captures
         if: always()

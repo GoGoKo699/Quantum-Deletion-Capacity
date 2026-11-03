@@ -4,7 +4,7 @@ Losing a carrier and losing its position are different physical changes. An eras
 
 ## The positional-uncertainty term
 
-For exactly $`k`$ uniformly chosen deletions, the number of possible patterns is $`\binom nk`$. Let $`K^*_{n,k,\epsilon}`$ be the largest achievable logical dimension at half-diamond error at most $`\epsilon`$. For fixed $`d`$, fixed $`0<\epsilon<1`$, and $`1\le k=o(n)`$, the [finite-block bounds](coding-theorems.md) give the optimal number of logical qubits as
+For exactly $`k`$ uniformly chosen deletions, the number of possible patterns is $`\binom nk`$. Let $`K^*_{n,k,\epsilon}`$ be the largest achievable logical dimension at half-diamond error at most $`\epsilon`$. For fixed $`d`$, fixed $`0\lt \epsilon\lt 1`$, and $`1\le k=o(n)`$, the [finite-block bounds](coding-theorems.md) give the optimal number of logical qubits as
 
 ```math
 \log_2K^*_{n,k,\epsilon}
@@ -34,7 +34,7 @@ show that the extra loss is
 \frac k2\log_2\frac nk+O_{d,\epsilon}(k).
 ```
 
-Here the target error $`0<\epsilon<1`$ is fixed. The exact coding statements retain the separate dependence on $`\epsilon`$ and $`1-\epsilon`$; they should be used when the target error changes with block length.
+Here the target error $`0\lt \epsilon\lt 1`$ is fixed. The exact coding statements retain the separate dependence on $`\epsilon`$ and $`1-\epsilon`$; they should be used when the target error changes with block length.
 
 ## A four-carrier alignment example
 

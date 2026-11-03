@@ -15,12 +15,15 @@ NODE_PATH=/absolute/temporary/dependencies/node_modules node verification/hosted
   --root /absolute/scientific-checkout \
   --repository GoGoKo699/Quantum-Deletion-Capacity \
   --revision FULL_COMMIT_SHA \
+  --contract verification/hosted/math-contract.json \
   --output /absolute/new-empty-evidence-directory
 ```
 
 Replace the illustrative paths and revision with actual values. The revision must identify a public commit containing the checked pages. The collector reads exact Git objects, so uncommitted edits and moving branch names do not define the inspected source.
 
 By default, all tracked Markdown pages are included. Repeated `--page PATH` arguments can select an explicitly limited diagnostic sample; a sample does not cover the rest of the repository. Use a new output directory for each attempt so earlier failures remain available.
+
+The [text contract](../math-contract.json) binds the complete expected mathematical text of headline formulas, the worked example and repaired expressions to their source hashes. A relevant formula edit requires updating its contract together with the source; the full structural comparison still covers every expression on every captured page.
 
 ## Interpret the output
 
