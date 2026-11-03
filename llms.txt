@@ -1,0 +1,16 @@
+# Quantum Deletion Capacity
+
+This repository studies the entanglement-assisted capacity of ordered quantum deletion with hidden deleted positions and observable final length. All input carriers are charged. Preshared entanglement is unlimited; feedback, timing labels, free internal boundaries and a free classical message channel are absent.
+
+## Read by question
+- Scientific overview: README.md
+- Definitions, assistance and half-diamond error: science/model.md
+- Exact Kraus Gram blocks, scalar spectrum and mismatch-run bound: science/alignment-spectrum.md
+- Finite-block coding, integer dimensions, iid limits and strong-converse scope: science/coding-theorems.md
+- Physical interpretation and four-carrier example: science/interpretation.md
+- Proof dependencies: science/README.md
+- Prior results and precise attribution: references/RELATED_WORK.md
+- Bibliographic records: references/references.bib
+- Reproduction command and finite-check limits: verification/README.md
+
+The leading small-deletion penalty is (p/2) log2(1/p) for fixed local dimension. The O(p) coefficient and exact general-p capacity are not determined. The strong converse is proved above the explicit upper threshold, not at an asserted exact capacity. A finite Gram computation does not prove the universal spectral or asymptotic statements. Codebook existence does not imply efficient decoding.
