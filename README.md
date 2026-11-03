@@ -48,6 +48,12 @@ The constant is deliberately loose: the gap between the two nontrivial bounds is
 
 The [science entrypoint](science/README.md) follows the proof dependencies. The [LLM reading guide](llms.txt) maps specific questions to the same authoritative files.
 
+## Learn the project
+
+The learning route starts from Mark M. Wilde's *Quantum Information Theory* and connects its communication protocols and packing method to ordered deletions. The [anchor guide](learning/anchor.md) identifies the exact source version, useful sections and changes of notation.
+
+The [guided bridge](learning/bridge.md) follows a four-carrier example from lost positions to the spectral bound, then explains how that bound meets an achievable communication rate. The [30-milestone map](learning/milestones.md) organizes the background and the project's argument into a dependency-ordered route. The [learning entrypoint](learning/README.md) connects these paths to the full proofs.
+
 ## Proof mechanism
 
 The normalized Choi state of uniform $`k`$-deletion obeys

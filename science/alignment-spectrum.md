@@ -24,10 +24,10 @@ Let $`[n]=\{1,\ldots,n\}`$, let $`0\le k\le n`$, and write $`m=n-k`$. The input 
 \mathcal H_B=(\mathbb C^d)^{\otimes m}.
 ```
 
-When $`m=0`$, the output is the one-dimensional empty-string space. For a deletion set $`S=\{s_1<\cdots<s_k\}`$, let
+When $`m=0`$, the output is the one-dimensional empty-string space. For a deletion set $`S=\{s_1\lt \cdots\lt s_k\}`$, let
 
 ```math
-x(S)=(x_1<\cdots<x_m)
+x(S)=(x_1\lt \cdots\lt x_m)
 ```
 
 be the increasing enumeration of $`[n]\setminus S`$. A basis word $`a=(a_1,\ldots,a_k)\in\{0,\ldots,d-1\}^k`$ specifies the deleted symbols. Define
@@ -62,12 +62,12 @@ Let $`|\Phi_{d^n}\rangle`$ be a normalized maximally entangled state on $`R A`$,
 ```math
 J_{n,k}
 =
-(\operatorname{id}_R\otimes\mathcal N_{n,k})
+(\mathrm{id}_R\otimes\mathcal N_{n,k})
 \bigl(|\Phi_{d^n}\rangle\langle\Phi_{d^n}|\bigr),
 \qquad
 \sigma_E
 =
-\operatorname{Tr}_B\left[V\frac{I_A}{d^n}V^{\dagger}\right].
+\mathrm{Tr}_B\left[V\frac{I_A}{d^n}V^{\dagger}\right].
 ```
 
 Both operators have trace one. They are complementary reductions of the pure state $`(I_R\otimes V)|\Phi_{d^n}\rangle`$, so their nonzero eigenvalues agree. In particular,
@@ -81,13 +81,13 @@ The environmental matrix elements are the normalized Kraus Gram entries
 ```math
 \langle S,a|\sigma_E|T,b\rangle
 =
-\frac{\operatorname{Tr}(K_{T,b}^{\dagger}K_{S,a})}
+\frac{\mathrm{Tr}(K_{T,b}^{\dagger}K_{S,a})}
 {d^n\binom{n}{k}}.
 ```
 
 ## 2. The exact permutation-block identity
 
-For two deletion sets $`S,T`$, write $`x=x(S)`$ and $`y=x(T)`$, and define the number of unequal survivor ranks by
+For two deletion sets $`\mathstrut S,T`$, write $`x=x(S)`$ and $`y=x(T)`$, and define the number of unequal survivor ranks by
 
 ```math
 q(S,T)
@@ -95,7 +95,7 @@ q(S,T)
 \left|\{i\in[m]:x_i\ne y_i\}\right|.
 ```
 
-**Lemma 1.** For every $`S,T`$, there is a permutation matrix $`P_{S,T}`$ on the $`d^k`$ deleted basis words such that
+**Lemma 1.** For every $`\mathstrut S,T`$, there is a permutation matrix $`P_{S,T}`$ on the $`d^k`$ deleted basis words such that
 
 ```math
 (\sigma_E)_{S,T}
@@ -108,7 +108,7 @@ The permutation can be nontrivial: the path matching between deleted positions n
 **Proof.** Expanding the trace in the input basis gives
 
 ```math
-\operatorname{Tr}(K_{T,b}^{\dagger}K_{S,a})
+\mathrm{Tr}(K_{T,b}^{\dagger}K_{S,a})
 =
 \sum_{z\in\{0,\ldots,d-1\}^n}
 \mathbf 1\{z_S=a\}\,
@@ -118,12 +118,12 @@ The permutation can be nontrivial: the path matching between deleted positions n
 
 Consider the directed graph on $`[n]`$ with edges $`x_i\to y_i`$. Each vertex has at most one outgoing and one incoming edge. The partial map $`x_i\mapsto y_i`$ is strictly increasing. It has no directed cycle of length greater than one: starting from the smallest vertex of such a cycle would produce a strictly increasing sequence of successive images until returning to the starting vertex.
 
-Every connected component is consequently a fixed loop or a directed path, with an isolated vertex counted as a path of length zero. A path starts at a vertex of $`T`$, where no incoming edge exists, and ends at a vertex of $`S`$, where no outgoing edge exists. Its other vertices lie in both survivor sets. Thus every path contains exactly one deleted position from each pattern. These paths pair the $`k`$ positions of $`S`$ bijectively with the $`k`$ positions of $`T`$.
+Every connected component is consequently a fixed loop or a directed path, with an isolated vertex counted as a path of length zero. A path starts at a vertex of $`\mathstrut T`$, where no incoming edge exists, and ends at a vertex of $`S`$, where no outgoing edge exists. Its other vertices lie in both survivor sets. Thus every path contains exactly one deleted position from each pattern. These paths pair the $`k`$ positions of $`S`$ bijectively with the $`k`$ positions of $`\mathstrut T`$.
 
-Once $`z_S=a`$ is fixed, the equality constraints determine every symbol on every path. They force one compatible word $`b`$ on $`T`$, obtained by permuting the coordinates of $`a`$. Every fixed loop contributes one freely chosen basis symbol. There are exactly $`m-q(S,T)`$ fixed loops, and therefore
+Once $`z_S=a`$ is fixed, the equality constraints determine every symbol on every path. They force one compatible word $`b`$ on $`\mathstrut T`$, obtained by permuting the coordinates of $`a`$. Every fixed loop contributes one freely chosen basis symbol. There are exactly $`m-q(S,T)`$ fixed loops, and therefore
 
 ```math
-\operatorname{Tr}(K_{T,b}^{\dagger}K_{S,a})
+\mathrm{Tr}(K_{T,b}^{\dagger}K_{S,a})
 =
 d^{m-q(S,T)}(P_{S,T})_{a,b}.
 ```
@@ -164,7 +164,7 @@ The first inequality uses that each $`P_{S,T}`$ is unitary. The second is the Ra
 
 The next lemma bounds each row separately. Its dependence on $`k`$ is the point needed for the capacity law.
 
-**Lemma 3.** Let $`0<r<1`$. For every fixed deletion set $`S`$ of size $`k`$,
+**Lemma 3.** Let $`0\lt r\lt 1`$. For every fixed deletion set $`S`$ of size $`k`$,
 
 ```math
 \sum_{\substack{T\subseteq[n]\\|T|=k}}
@@ -205,7 +205,7 @@ Fix one group containing $`s\ge1`$ holes and fix a run length $`\ell\ge1`$. Its 
 
 choices for the increasing $`y`$-subsequence. We also allow choices that accidentally contain matching ranks; this again enlarges the count.
 
-These records constitute an injective description of every actual $`T`$. The group scheme and intervals identify the runs of ranks in the known sequence $`x`$; the selected subsequences determine $`y`$ on each run; and outside the runs $`y`$ equals $`x`$. Hence the full sequence $`y`$, and therefore its complementary deletion set $`T`$, is recovered from the record.
+These records constitute an injective description of every actual $`\mathstrut T`$. The group scheme and intervals identify the runs of ranks in the known sequence $`x`$; the selected subsequences determine $`y`$ on each run; and outside the runs $`y`$ equals $`x`$. Hence the full sequence $`y`$, and therefore its complementary deletion set $`\mathstrut T`$, is recovered from the record.
 
 Each run contributes $`r^{\ell}`$ to the weight $`r^{q(S,T)}`$. For a group of $`s`$ holes, the total weighted number of its possible records is bounded by
 
@@ -241,7 +241,7 @@ C_d=\frac{6}{(1-1/d)^3}\le48.
 }
 ```
 
-At $`k=0`$, the channel is the identity, the environmental space is one-dimensional, and $`\|J_{n,0}\|_\infty=1`$; the bound is exact. At $`k=n`$, the only deletion pattern removes the whole string, so $`\sigma_E=I/d^n`$ and $`\|J_{n,n}\|_\infty=d^{-n}`$. There are no survivor ranks or mismatch runs in that case, and the exact row sum is one. The theorem remains valid, with a loose constant factor. The same boundary conventions cover runs that touch either end when $`0<k<n`$.
+At $`k=0`$, the channel is the identity, the environmental space is one-dimensional, and $`\|J_{n,0}\|_\infty=1`$; the bound is exact. At $`k=n`$, the only deletion pattern removes the whole string, so $`\sigma_E=I/d^n`$ and $`\|J_{n,n}\|_\infty=d^{-n}`$. There are no survivor ranks or mismatch runs in that case, and the exact row sum is one. The theorem remains valid, with a loose constant factor. The same boundary conventions cover runs that touch either end when $`0\lt k\lt n`$.
 
 ## 4. A single deletion
 
@@ -293,7 +293,7 @@ The normalized Choi state of maximally mixed replacement on the $`d^m`$-dimensio
 \,\mathcal R_{n-k},
 \qquad
 \mathcal R_{n-k}(X)
-=\operatorname{Tr}(X)\frac{I_B}{d^{n-k}}.
+=\mathrm{Tr}(X)\frac{I_B}{d^{n-k}}.
 ```
 
 Because this is an inequality between completely positive maps, it remains valid after adjoining an arbitrary reference system and applying it to any encoded input. The coding converse uses this property to cover arbitrary entanglement-assisted encoders. No maximally mixed input optimality assumption is required. The spectral calculation supplies a uniform comparison of the channel itself.

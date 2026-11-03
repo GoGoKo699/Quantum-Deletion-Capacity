@@ -46,7 +46,7 @@ For every integer $`K\geq1`$, there is an entanglement-assisted quantum code wit
 \min\{1,\,4(K^2-1)a_{n,k}\}.
 ```
 
-In particular, for a prescribed $`0<\epsilon<1`$, the integer
+In particular, for a prescribed $`0\lt \epsilon\lt 1`$, the integer
 
 ```math
 K_{\mathrm{ach}}
@@ -71,7 +71,7 @@ F_e(\mathcal T)
 \leq\min\{1,\Lambda_{n,k}/K^2\}.
 ```
 
-Consequently, $`\epsilon_\diamond\leq\epsilon<1`$ requires
+Consequently, $`\epsilon_\diamond\leq\epsilon\lt 1`$ requires
 
 ```math
 \begin{aligned}
@@ -101,7 +101,7 @@ For every integer $`K\geq1`$, a single codebook and a decoder conditioned only o
 \leq\min\{1,\tau_T+4(K^2-1)\beta_T\}.
 ```
 
-When $`\tau_T<\epsilon<1`$ and $`\beta_T>0`$, a valid integer choice is
+When $`\tau_T\lt \epsilon\lt 1`$ and $`\beta_T>0`$, a valid integer choice is
 
 ```math
 K_{\mathrm{ach}}
@@ -129,13 +129,13 @@ Let $`D_A=d^n`$ and $`D_B=d^{n-k}`$. The normalized Choi state is
 
 ```math
 J_{n,k}
-=(\operatorname{id}_{D_A}\otimes\mathcal N_{n,k})(\Phi_{D_A}).
+=(\mathrm{id}_{D_A}\otimes\mathcal N_{n,k})(\Phi_{D_A}).
 ```
 
 The receiver's marginal is $`I_B/D_B`$. There are $`c_{n,k}d^k`$ partial-inner-product Kraus operators, so
 
 ```math
-\operatorname{rank}J_{n,k}\leq c_{n,k}d^k.
+\mathrm{rank}J_{n,k}\leq c_{n,k}d^k.
 ```
 
 The sender and receiver share $`n`$ maximally entangled $`d`$-level pairs. Choose each classical codeword independently from the product Weyl operators on the sender's $`n`$ halves. If the chosen Weyl is $`U`$, the received state is
@@ -162,21 +162,21 @@ For a codebook of $`M`$ words, let $`\Pi_{j,k}`$ be the support projector of its
 \overline e_k
 \leq\frac4M
 \sum_{i=1}^M\sum_{j\ne i}
-\operatorname{Tr}(\rho_{i,k}\Pi_{j,k}).
+\mathrm{Tr}(\rho_{i,k}\Pi_{j,k}).
 ```
 
 The self-error term vanishes because $`\Pi_{i,k}`$ contains the support of $`\rho_{i,k}`$. For $`i\ne j`$, the two codewords are independent. Averaging $`\rho_{i,k}`$ while holding $`\Pi_{j,k}`$ fixed gives
 
 ```math
-\mathbb E\operatorname{Tr}(\rho_{i,k}\Pi_{j,k})
-=\frac{\operatorname{rank}J_{n,k}}{D_AD_B}
+\mathbb E\mathrm{Tr}(\rho_{i,k}\Pi_{j,k})
+=\frac{\mathrm{rank}J_{n,k}}{D_AD_B}
 \leq\frac{c_{n,k}d^k}{d^{2n-k}}
 =a_{n,k}.
 ```
 
 It follows that $`\mathbb E\overline e_k\leq4(M-1)a_{n,k}`$. Some deterministic codebook therefore satisfies the fixed-count bound. The codebook is fixed independently of the message; its probabilistic existence does not supply a message-bearing side channel.
 
-For independent deletions, use the same sampled codebook at every possible output length. On lengths indexed by $`T`$, use the corresponding support measurement; outside $`T`$, output a fixed label. Averaging the total error over both the codebook and the channel gives
+For independent deletions, use the same sampled codebook at every possible output length. On lengths indexed by $`\mathstrut T`$, use the corresponding support measurement; outside $`\mathstrut T`$, output a fixed label. Averaging the total error over both the codebook and the channel gives
 
 ```math
 \mathbb E\overline e
@@ -211,7 +211,7 @@ The construction uses $`n\log_2d+\log_2K`$ ebits in total. This entanglement cos
 
 ### Dense coding for the converse
 
-Let an arbitrary entanglement-assisted quantum code induce $`\mathcal T`$ on a $`K`$-dimensional register. Add one maximally entangled pair of Schmidt rank $`K`$. To send label $`j\in\{1,\ldots,K^2\}`$, apply a Weyl $`W_j`$ to the sender's half, pass that half through the quantum code, and perform the generalized Bell measurement at the receiver.
+Let an arbitrary entanglement-assisted quantum code induce $`\mathstrut \mathcal T`$ on a $`K`$-dimensional register. Add one maximally entangled pair of Schmidt rank $`K`$. To send label $`j\in\{1,\ldots,K^2\}`$, apply a Weyl $`W_j`$ to the sender's half, pass that half through the quantum code, and perform the generalized Bell measurement at the receiver.
 
 The identity
 
@@ -220,13 +220,13 @@ The identity
 =(W_j^{\mathsf T}\otimes I)|\Phi_K\rangle
 ```
 
-moves the message unitary to the untouched reference. It commutes with the action of $`\operatorname{id}\otimes\mathcal T`$. The target Bell vector transforms by the same reference unitary, so the correct-decoding probability for every label is exactly
+moves the message unitary to the untouched reference. It commutes with the action of $`\mathstrut \mathrm{id}\otimes\mathcal T`$. The target Bell vector transforms by the same reference unitary, so the correct-decoding probability for every label is exactly
 
 ```math
 P_{\mathrm{succ}}(j)=F_e(\mathcal T).
 ```
 
-This equality holds for arbitrary $`\mathcal T`$ and does not assume Weyl covariance. The additional $`\log_2K`$ ebits are permitted by the model's unrestricted preshared-entanglement allowance. Applying a classical converse to these $`K^2`$ labels gives the quantum fidelity converse with no square-root loss in the error parameter.
+This equality holds for arbitrary $`\mathstrut \mathcal T`$ and does not assume Weyl covariance. The additional $`\log_2K`$ ebits are permitted by the model's unrestricted preshared-entanglement allowance. Applying a classical converse to these $`K^2`$ labels gives the quantum fidelity converse with no square-root loss in the error parameter.
 
 ## Arbitrary-encoder converse by CP domination
 
@@ -234,7 +234,7 @@ Let $`\mathcal R_{n-k}`$ be the completely depolarizing replacer,
 
 ```math
 \mathcal R_{n-k}(X)
-=\operatorname{Tr}(X)\frac{I_B}{d^{n-k}}.
+=\mathrm{Tr}(X)\frac{I_B}{d^{n-k}}.
 ```
 
 The alignment-spectrum bound is
@@ -261,7 +261,7 @@ The output-dimension version is also valid:
 ```
 
 Indeed, for every positive $`X_{RB}`$,
-$`X_{RB}\leq D_B\operatorname{Tr}_B(X_{RB})\otimes I_B`$.
+$`X_{RB}\leq D_B\mathrm{Tr}_B(X_{RB})\otimes I_B`$.
 One proof first pinches in a basis of $`B`$, paying $`D_B`$, and then bounds each diagonal block by their sum. Applying this inequality to $`J_{n,k}`$, whose $`R`$ marginal is $`I_R/D_A`$, proves the stated output-dimension coefficient. Combining the two inequalities yields
 
 ```math
@@ -315,13 +315,13 @@ The exact endpoints are $`Q_E^{\mathrm{del}}(0;d)=\log_2d`$ and $`Q_E^{\mathrm{d
 
 ### Achievability and the order of limits
 
-Fix $`0<p<1`$, and define the classical-rate function
+Fix $`0\lt p\lt 1`$, and define the classical-rate function
 
 ```math
 f_d(x)=2(1-x)\log_2d-h_2(x).
 ```
 
-Suppose a desired quantum rate $`R`$ satisfies $`0\leq2R<f_d(p)`$. Choose a fixed $`\eta>0`$ and $`\delta>0`$ such that
+Suppose a desired quantum rate $`R`$ satisfies $`0\leq2R\lt f_d(p)`$. Choose a fixed $`\eta>0`$ and $`\delta>0`$ such that
 
 ```math
 \inf_{|x-p|\leq\eta}f_d(x)>2R+\delta,
@@ -377,7 +377,7 @@ implies
 Consider any sequence with $`\liminf_n n^{-1}\log_2K_n>g_d(p)/2`$. Choose a rate $`R`$ strictly between these quantities. Continuity permits fixed $`\eta,\delta>0`$ such that
 
 ```math
-\sup_{|x-p|\leq\eta}g_d(x)<2R-\delta.
+\sup_{|x-p|\leq\eta}g_d(x)\lt 2R-\delta.
 ```
 
 For all sufficiently large $`n`$, the branchwise converse yields

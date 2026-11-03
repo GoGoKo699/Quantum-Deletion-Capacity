@@ -4,7 +4,7 @@ Losing a carrier and losing its position are different physical changes. An eras
 
 ## The positional-uncertainty term
 
-For exactly $`k`$ uniformly chosen deletions, the number of possible patterns is $`\binom nk`$. Let $`K^*_{n,k,\epsilon}`$ be the largest achievable logical dimension at half-diamond error at most $`\epsilon`$. For fixed $`d`$, fixed $`0<\epsilon<1`$, and $`1\le k=o(n)`$, the [finite-block bounds](coding-theorems.md) give the optimal number of logical qubits as
+For exactly $`k`$ uniformly chosen deletions, the number of possible patterns is $`\binom nk`$. Let $`K^*_{n,k,\epsilon}`$ be the largest achievable logical dimension at half-diamond error at most $`\epsilon`$. For fixed $`d`$, fixed $`0\lt \epsilon\lt 1`$, and $`1\le k=o(n)`$, the [finite-block bounds](coding-theorems.md) give the optimal number of logical qubits as
 
 ```math
 \log_2K^*_{n,k,\epsilon}
@@ -34,7 +34,7 @@ show that the extra loss is
 \frac k2\log_2\frac nk+O_{d,\epsilon}(k).
 ```
 
-Here the target error $`0<\epsilon<1`$ is fixed. The exact coding statements retain the separate dependence on $`\epsilon`$ and $`1-\epsilon`$; they should be used when the target error changes with block length.
+Here the target error $`0\lt \epsilon\lt 1`$ is fixed. The exact coding statements retain the separate dependence on $`\epsilon`$ and $`1-\epsilon`$; they should be used when the target error changes with block length.
 
 ## A four-carrier alignment example
 
@@ -61,7 +61,7 @@ T_4=
 \end{pmatrix}.
 ```
 
-Nearby deletions have larger off-diagonal Gram blocks than distant deletions. The pattern-register basis vectors are orthogonal, but the complementary state is not diagonal in that basis. Replacing it by an incoherent classical pattern register would change the spectral calculation. Nevertheless, the total overlap stays bounded as $`n`$ grows: for qubits, the largest eigenvalue of the corresponding $`T_n`$ tends to 3. The normalized Choi norm is consequently of order $`1/n`$. That scaling is enough to retain the logarithmic positional penalty in the converse.
+Nearby deletions have larger off-diagonal Gram blocks than distant deletions. The pattern-register basis vectors are orthogonal, but the complementary state is not diagonal in that basis. Replacing it by an incoherent classical pattern register would change the spectral calculation. Nevertheless, the total overlap stays bounded as $`n`$ grows: for qubits, the largest eigenvalue of the corresponding $`\mathstrut T_n`$ tends to 3. The normalized Choi norm is consequently of order $`1/n`$. That scaling is enough to retain the logarithmic positional penalty in the converse.
 
 For several deletions, the deleted-symbol blocks can contain nontrivial permutations, and the single-deletion Toeplitz formula no longer applies. The [mismatch-run proof](alignment-spectrum.md) bounds all patterns at once, with a factor at most $`C_d^k`$.
 

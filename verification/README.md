@@ -1,4 +1,4 @@
-# Finite verification
+# Verification
 
 These deterministic checks verify finite instances of the Kraus Gram identity and its scalar spectral reduction in [Alignment geometry and the Choi spectrum](../science/alignment-spectrum.md). They use two separate direct constructions of deletion Kraus operators. Neither construction uses the graph decomposition to produce its matrices.
 
@@ -48,3 +48,9 @@ The reference values include the independent six-qubit result: zero failed block
 ## Scope
 
 The checks address normalization, deleted-coordinate permutations, small-instance spectra, and the listed finite row sums. The proof of the uniform row bound, the channel comparison, and the small-deletion capacity law is analytical. These scripts do not prove those asymptotic statements, establish an optimal value of $`C_d`$, construct an efficient decoder, or measure communication performance. No randomized coding simulation is included.
+
+## Hosted mathematical display
+
+The read-only pull-request workflow also compares every tracked Markdown page with its actual GitHub rendering at the proposed commit, at wide and narrow viewport widths. It retains source and rendered mathematical structures, report files and screenshots. The [hosted-check guide](hosted/references/hosted-rendering.md) gives the local command and explains the output.
+
+The automated comparison checks expression coverage and mathematical structure; separate visual inspection checks the displayed claims and layout. These display checks complement the finite scientific tests and analytical review. A successful renderer report does not establish the validity of a theorem.
