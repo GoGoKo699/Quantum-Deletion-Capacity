@@ -1,0 +1,53 @@
+name: Verify science and hosted mathematics
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deletion-verification-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Science and hosted mathematics
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      SOURCE_REVISION: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Check out the exact proposed source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+      - name: Reproduce the finite scientific checks
+        run: |
+          python3 -m venv "$RUNNER_TEMP/deletion-science"
+          "$RUNNER_TEMP/deletion-science/bin/python" -m pip install -r verification/requirements.txt
+          "$RUNNER_TEMP/deletion-science/bin/python" verification/run_all.py
+      - name: Install isolated rendering dependencies
+        run: |
+          npm install --prefix "$RUNNER_TEMP/deletion-render-deps" --ignore-scripts --no-audit --no-fund playwright@1.56.1 mathjax-full@3.2.1
+          "$RUNNER_TEMP/deletion-render-deps/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Compare actual GitHub mathematics at two widths
+        run: |
+          NODE_PATH="$RUNNER_TEMP/deletion-render-deps/node_modules" node verification/hosted/scripts/capture_hosted_math.cjs \
+            --root "$GITHUB_WORKSPACE" \
+            --repository "$GITHUB_REPOSITORY" \
+            --revision "$SOURCE_REVISION" \
+            --output "$RUNNER_TEMP/deletion-hosted"
+      - name: Retain the actual report and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: deletion-hosted-${{ github.event.pull_request.head.sha }}
+          path: ${{ runner.temp }}/deletion-hosted
+          if-no-files-found: warn
+          retention-days: 14
