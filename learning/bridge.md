@@ -136,7 +136,7 @@ A $`K`$-dimensional quantum message contains $`\log_2K`$ logical qubits. Telepor
 
 Use the classical deletion code to transmit those labels and share one additional maximally entangled pair of dimension $`K`$ for teleportation. The correction information travels through the same deletion transmission; there is no free classical link. This conversion is the operational reason that a logarithmic classical-message bound becomes twice a logarithmic quantum-dimension bound, as in Chapter 6 and §22.1 of the anchor.
 
-The finite-error statement is especially useful here. Let $`\mathcal T`$ be the effective quantum channel, and use the conventions
+The finite-error statement is especially useful here. Let $`\mathstrut \mathcal T`$ be the effective quantum channel, and use the conventions
 
 ```math
 F_e(\mathcal T)
@@ -159,7 +159,7 @@ F_e(\mathcal T)=1-\overline e,
 
 Thus a classical average-error guarantee supplies the required reference-stable quantum guarantee for this explicit channel. Any abort outcome is first assigned a definite correction label and counted in the completed decoder.
 
-For the reverse direction, add a $`K`$-dimensional entangled pair to any proposed quantum code and use dense coding to send $`K^2`$ labels. The sender's Weyl can be moved to the untouched reference by transposition. The probability of the correct Bell outcome is exactly $`F_e(\mathcal T)`$ for every label, even when $`\mathcal T`$ is not covariant. Applying the classical converse gives
+For the reverse direction, add a $`K`$-dimensional entangled pair to any proposed quantum code and use dense coding to send $`K^2`$ labels. The sender's Weyl can be moved to the untouched reference by transposition. The probability of the correct Bell outcome is exactly $`F_e(\mathcal T)`$ for every label, even when $`\mathstrut \mathcal T`$ is not covariant. Applying the classical converse gives
 
 ```math
 F_e(\mathcal T)\leq\min\{1,\Lambda_{n,k}/K^2\}.

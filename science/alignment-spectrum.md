@@ -87,7 +87,7 @@ The environmental matrix elements are the normalized Kraus Gram entries
 
 ## 2. The exact permutation-block identity
 
-For two deletion sets $`S,T`$, write $`x=x(S)`$ and $`y=x(T)`$, and define the number of unequal survivor ranks by
+For two deletion sets $`\mathstrut S,T`$, write $`x=x(S)`$ and $`y=x(T)`$, and define the number of unequal survivor ranks by
 
 ```math
 q(S,T)
@@ -95,7 +95,7 @@ q(S,T)
 \left|\{i\in[m]:x_i\ne y_i\}\right|.
 ```
 
-**Lemma 1.** For every $`S,T`$, there is a permutation matrix $`P_{S,T}`$ on the $`d^k`$ deleted basis words such that
+**Lemma 1.** For every $`\mathstrut S,T`$, there is a permutation matrix $`P_{S,T}`$ on the $`d^k`$ deleted basis words such that
 
 ```math
 (\sigma_E)_{S,T}
@@ -118,9 +118,9 @@ The permutation can be nontrivial: the path matching between deleted positions n
 
 Consider the directed graph on $`[n]`$ with edges $`x_i\to y_i`$. Each vertex has at most one outgoing and one incoming edge. The partial map $`x_i\mapsto y_i`$ is strictly increasing. It has no directed cycle of length greater than one: starting from the smallest vertex of such a cycle would produce a strictly increasing sequence of successive images until returning to the starting vertex.
 
-Every connected component is consequently a fixed loop or a directed path, with an isolated vertex counted as a path of length zero. A path starts at a vertex of $`T`$, where no incoming edge exists, and ends at a vertex of $`S`$, where no outgoing edge exists. Its other vertices lie in both survivor sets. Thus every path contains exactly one deleted position from each pattern. These paths pair the $`k`$ positions of $`S`$ bijectively with the $`k`$ positions of $`T`$.
+Every connected component is consequently a fixed loop or a directed path, with an isolated vertex counted as a path of length zero. A path starts at a vertex of $`\mathstrut T`$, where no incoming edge exists, and ends at a vertex of $`S`$, where no outgoing edge exists. Its other vertices lie in both survivor sets. Thus every path contains exactly one deleted position from each pattern. These paths pair the $`k`$ positions of $`S`$ bijectively with the $`k`$ positions of $`\mathstrut T`$.
 
-Once $`z_S=a`$ is fixed, the equality constraints determine every symbol on every path. They force one compatible word $`b`$ on $`T`$, obtained by permuting the coordinates of $`a`$. Every fixed loop contributes one freely chosen basis symbol. There are exactly $`m-q(S,T)`$ fixed loops, and therefore
+Once $`z_S=a`$ is fixed, the equality constraints determine every symbol on every path. They force one compatible word $`b`$ on $`\mathstrut T`$, obtained by permuting the coordinates of $`a`$. Every fixed loop contributes one freely chosen basis symbol. There are exactly $`m-q(S,T)`$ fixed loops, and therefore
 
 ```math
 \mathrm{Tr}(K_{T,b}^{\dagger}K_{S,a})
@@ -205,7 +205,7 @@ Fix one group containing $`s\ge1`$ holes and fix a run length $`\ell\ge1`$. Its 
 
 choices for the increasing $`y`$-subsequence. We also allow choices that accidentally contain matching ranks; this again enlarges the count.
 
-These records constitute an injective description of every actual $`T`$. The group scheme and intervals identify the runs of ranks in the known sequence $`x`$; the selected subsequences determine $`y`$ on each run; and outside the runs $`y`$ equals $`x`$. Hence the full sequence $`y`$, and therefore its complementary deletion set $`T`$, is recovered from the record.
+These records constitute an injective description of every actual $`\mathstrut T`$. The group scheme and intervals identify the runs of ranks in the known sequence $`x`$; the selected subsequences determine $`y`$ on each run; and outside the runs $`y`$ equals $`x`$. Hence the full sequence $`y`$, and therefore its complementary deletion set $`\mathstrut T`$, is recovered from the record.
 
 Each run contributes $`r^{\ell}`$ to the weight $`r^{q(S,T)}`$. For a group of $`s`$ holes, the total weighted number of its possible records is bounded by
 

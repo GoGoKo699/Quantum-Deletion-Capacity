@@ -50,6 +50,12 @@
       "expected_text": "\n  \n    ϵ\n    ⋄\n  \n  =\n  \n    \n      1\n      2\n    \n  \n  ∥\n  \n    T\n  \n  −\n  \n    \n      id\n    \n    K\n  \n  \n    ∥\n    ⋄\n  \n"
     },
     {
+      "path": "learning/anchor.md",
+      "index": 24,
+      "source_sha256": "ada487735a1cebdd19f58fbf91b155ac8c2ce14d10447a00123eed71fe0df1cb",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n  \n"
+    },
+    {
       "path": "learning/bridge.md",
       "index": 17,
       "source_sha256": "0624b3049d6e7cbfc1317e81b1d215cd1e45e0d956b5ee525237155abeff34f1",
@@ -111,6 +117,12 @@
     },
     {
       "path": "learning/bridge.md",
+      "index": 77,
+      "source_sha256": "ada487735a1cebdd19f58fbf91b155ac8c2ce14d10447a00123eed71fe0df1cb",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n  \n"
+    },
+    {
+      "path": "learning/bridge.md",
       "index": 78,
       "source_sha256": "ac90573c6213aef0f30391b1a041d74d943fdffbb06c5cc9e2c79926b9309ddc",
       "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  =\n  ⟨\n  \n    Φ\n    K\n  \n  |\n  (\n  \n    \n      id\n    \n    K\n  \n  ⊗\n  \n    T\n  \n  )\n  (\n  \n    Φ\n    K\n  \n  )\n  |\n  \n    Φ\n    K\n  \n  ⟩\n  ,\n  \n    \n  \n  \n    ϵ\n    ⋄\n  \n  (\n  \n    T\n  \n  )\n  =\n  \n    1\n    2\n  \n  ∥\n  \n    T\n  \n  −\n  \n    \n      id\n    \n    K\n  \n  \n    ∥\n    ⋄\n  \n  .\n"
@@ -120,6 +132,12 @@
       "index": 81,
       "source_sha256": "693be47c54f9dd469e163aea409a19bce8e548953abc46f1eabb6542b7e645ad",
       "expected_text": "\n  \n    F\n    e\n  \n  (\n  \n    T\n  \n  )\n  =\n  1\n  −\n  \n    e\n    ―\n  \n  ,\n  \n    \n  \n  \n    ϵ\n    ⋄\n  \n  (\n  \n    T\n  \n  )\n  =\n  \n    e\n    ―\n  \n  .\n"
+    },
+    {
+      "path": "learning/bridge.md",
+      "index": 85,
+      "source_sha256": "ada487735a1cebdd19f58fbf91b155ac8c2ce14d10447a00123eed71fe0df1cb",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n  \n"
     },
     {
       "path": "learning/bridge.md",
@@ -189,9 +207,39 @@
     },
     {
       "path": "science/alignment-spectrum.md",
+      "index": 30,
+      "source_sha256": "289e687228811826d253d8874134169a12d081fccc3c5a3ddbe739f474f963b3",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  S\n  ,\n  T\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 34,
+      "source_sha256": "289e687228811826d253d8874134169a12d081fccc3c5a3ddbe739f474f963b3",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  S\n  ,\n  T\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
       "index": 40,
       "source_sha256": "0b06151114c7ed9cddfbd52bef766e9e52db332fc35be5812ab90aeae556b538",
       "expected_text": "\n  \n    Tr\n  \n  (\n  \n    K\n    \n      T\n      ,\n      b\n    \n    \n      †\n    \n  \n  \n    K\n    \n      S\n      ,\n      a\n    \n  \n  )\n  =\n  \n    ∑\n    \n      z\n      ∈\n      {\n      0\n      ,\n      …\n      ,\n      d\n      −\n      1\n      \n        }\n        n\n      \n    \n  \n  \n    1\n  \n  {\n  \n    z\n    S\n  \n  =\n  a\n  }\n  \n    \n  \n  \n    1\n  \n  {\n  \n    z\n    T\n  \n  =\n  b\n  }\n  \n    ∏\n    \n      i\n      =\n      1\n    \n    \n      m\n    \n  \n  \n    1\n  \n  {\n  \n    z\n    \n      \n        x\n        i\n      \n    \n  \n  =\n  \n    z\n    \n      \n        y\n        i\n      \n    \n  \n  }\n  .\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 44,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 49,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 52,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
     },
     {
       "path": "science/alignment-spectrum.md",
@@ -204,6 +252,18 @@
       "index": 74,
       "source_sha256": "9b6f2fd7548b04b756ebcf3f120947ae82ea89f97561e8a415ce0ad4209d1364",
       "expected_text": "\n  0\n  <\n  r\n  <\n  1\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 111,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
+    },
+    {
+      "path": "science/alignment-spectrum.md",
+      "index": 117,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
     },
     {
       "path": "science/alignment-spectrum.md",
@@ -261,9 +321,33 @@
     },
     {
       "path": "science/coding-theorems.md",
+      "index": 66,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 67,
+      "source_sha256": "0c26e5f4aa3b92f3c2f7c26ac4bb33bb124b68143070b3bc7ff3a3f9b691f075",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  T\n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 82,
+      "source_sha256": "ada487735a1cebdd19f58fbf91b155ac8c2ce14d10447a00123eed71fe0df1cb",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n  \n"
+    },
+    {
+      "path": "science/coding-theorems.md",
       "index": 88,
-      "source_sha256": "8e9cd14e0bcdeec800d985ae6b3747de948d8f70a873ca5688ba4df9dcb066b5",
-      "expected_text": "\n  \n    id\n  \n  ⊗\n  \n    T\n  \n"
+      "source_sha256": "efbcb5f9b572832b4970c8121bece81862a21fc52eb7f26b6e94a28de06d8d6d",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    id\n  \n  ⊗\n  \n    T\n  \n"
+    },
+    {
+      "path": "science/coding-theorems.md",
+      "index": 90,
+      "source_sha256": "ada487735a1cebdd19f58fbf91b155ac8c2ce14d10447a00123eed71fe0df1cb",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n  \n"
     },
     {
       "path": "science/coding-theorems.md",
@@ -330,6 +414,12 @@
       "index": 15,
       "source_sha256": "d01e9006943418d86f720b40bc420fee4a2b813be72c9a1fa6c2d675bcd576b7",
       "expected_text": "\n  0\n  <\n  ϵ\n  <\n  1\n"
+    },
+    {
+      "path": "science/interpretation.md",
+      "index": 25,
+      "source_sha256": "7f8b3a6f1e481fbbe95926806ca748ac5c39f77c4ec5d6043d970a39408fbf40",
+      "expected_text": "\n  \n    \n      \n        (\n      \n    \n  \n  \n    T\n    n\n  \n"
     },
     {
       "path": "science/model.md",

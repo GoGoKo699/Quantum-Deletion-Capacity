@@ -176,7 +176,7 @@ The self-error term vanishes because $`\Pi_{i,k}`$ contains the support of $`\rh
 
 It follows that $`\mathbb E\overline e_k\leq4(M-1)a_{n,k}`$. Some deterministic codebook therefore satisfies the fixed-count bound. The codebook is fixed independently of the message; its probabilistic existence does not supply a message-bearing side channel.
 
-For independent deletions, use the same sampled codebook at every possible output length. On lengths indexed by $`T`$, use the corresponding support measurement; outside $`T`$, output a fixed label. Averaging the total error over both the codebook and the channel gives
+For independent deletions, use the same sampled codebook at every possible output length. On lengths indexed by $`\mathstrut T`$, use the corresponding support measurement; outside $`\mathstrut T`$, output a fixed label. Averaging the total error over both the codebook and the channel gives
 
 ```math
 \mathbb E\overline e
@@ -211,7 +211,7 @@ The construction uses $`n\log_2d+\log_2K`$ ebits in total. This entanglement cos
 
 ### Dense coding for the converse
 
-Let an arbitrary entanglement-assisted quantum code induce $`\mathcal T`$ on a $`K`$-dimensional register. Add one maximally entangled pair of Schmidt rank $`K`$. To send label $`j\in\{1,\ldots,K^2\}`$, apply a Weyl $`W_j`$ to the sender's half, pass that half through the quantum code, and perform the generalized Bell measurement at the receiver.
+Let an arbitrary entanglement-assisted quantum code induce $`\mathstrut \mathcal T`$ on a $`K`$-dimensional register. Add one maximally entangled pair of Schmidt rank $`K`$. To send label $`j\in\{1,\ldots,K^2\}`$, apply a Weyl $`W_j`$ to the sender's half, pass that half through the quantum code, and perform the generalized Bell measurement at the receiver.
 
 The identity
 
@@ -220,13 +220,13 @@ The identity
 =(W_j^{\mathsf T}\otimes I)|\Phi_K\rangle
 ```
 
-moves the message unitary to the untouched reference. It commutes with the action of $`\mathrm{id}\otimes\mathcal T`$. The target Bell vector transforms by the same reference unitary, so the correct-decoding probability for every label is exactly
+moves the message unitary to the untouched reference. It commutes with the action of $`\mathstrut \mathrm{id}\otimes\mathcal T`$. The target Bell vector transforms by the same reference unitary, so the correct-decoding probability for every label is exactly
 
 ```math
 P_{\mathrm{succ}}(j)=F_e(\mathcal T).
 ```
 
-This equality holds for arbitrary $`\mathcal T`$ and does not assume Weyl covariance. The additional $`\log_2K`$ ebits are permitted by the model's unrestricted preshared-entanglement allowance. Applying a classical converse to these $`K^2`$ labels gives the quantum fidelity converse with no square-root loss in the error parameter.
+This equality holds for arbitrary $`\mathstrut \mathcal T`$ and does not assume Weyl covariance. The additional $`\log_2K`$ ebits are permitted by the model's unrestricted preshared-entanglement allowance. Applying a classical converse to these $`K^2`$ labels gives the quantum fidelity converse with no square-root loss in the error parameter.
 
 ## Arbitrary-encoder converse by CP domination
 
